@@ -31,7 +31,6 @@ func exec(node *TreeNode, deep int, ret *int) {
 }
 
 func maxDepth2(root *TreeNode) int {
-
 	if root == nil {
 		return 0
 	}
